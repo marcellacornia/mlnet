@@ -43,4 +43,4 @@ We provide saliency maps predicted by our network for two standard datasets:
 
 For more datails about our research please visit our [page](http://imagelab.ing.unimore.it/imagelab/researchActivity.asp?idActivity=30).
 
-If you have any general doubt about our work, please use the [public issues section](https://github.com/marcellacornia/mlnet/issues) on this github repo. Alternatively, drop us an e-mail at <marcella.cornia@unimore.it> or <lorenzo.baraldi@unimore.it>.
+If you have any general doubt about our work, please use the [public issues section](https://github.com/marcellacornia/mlnet/issues) on this github repo. Alternatively, drop us an e-mail at <mailto:marcella.cornia@unimore.it> or <mailto:lorenzo.baraldi@unimore.it>.
