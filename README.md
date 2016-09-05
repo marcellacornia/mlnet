@@ -10,7 +10,7 @@ We compare our solution with state of the art saliency models on two public benc
 
 ![mlnet-fig]
 
-[mlnet-fig]: figs/mlnet.pdf "ML-Net"
+[mlnet-fig]: https://github.com/marcellacornia/mlnet/blob/master/figs/mlnet.pdf "ML-Net"
 
 ## Usage
 
