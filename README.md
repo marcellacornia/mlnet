@@ -3,6 +3,19 @@ This repository contains reference code for computing Multi-Level Net (ML-Net) s
 
 *Marcella Cornia, Lorenzo Baraldi, Giuseppe Serra, Rita Cucchiara. "A Deep Multi-Level Network for Saliency Prediction." In Proceedings of the 23rd International Conference on Pattern Recognition, 2016.*
 
+Please cite with the following Bibtex code:
+
+```
+@inproceedings{mlnet2016,
+author = {Cornia, Marcella and Baraldi, Lorenzo and Serra, Giuseppe and Cucchiara, Rita},
+title = {A Deep Multi-Level Network for Saliency Prediction},
+booktitle = {23rd International Conference on Pattern Recognition (ICPR)},
+year = {2016}
+}
+```
+
+An arXiv pre-print is available at this [link](https://arxiv.org/abs/1609.01064).
+
 ## Abstract
 
 This paper presents a novel deep architecture for saliency prediction. Current state of the art models for saliency prediction employ Fully Convolutional networks that  perform a non-linear combination of features extracted from the last convolutional layer to predict saliency maps. We propose an architecture which, instead, combines features extracted at different levels of a Convolutional Neural Network (CNN). Our model is composed of three main blocks: a feature extraction CNN, a feature encoding network, that weights low and high level feature maps, and a prior learning network. 
