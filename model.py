@@ -73,8 +73,8 @@ def ml_net_model(img_rows=480, img_cols=640, downsampling_factor_net=8, downsamp
     #########################################################
     # PRIOR LEARNING										#
     #########################################################
-    rows_elt = int(math.ceil(img_rows // downsampling_factor_net) / downsampling_factor_product)
-    cols_elt = int(math.ceil(img_cols / downsampling_factor_net) / downsampling_factor_product)
+    rows_elt = math.ceil(img_rows / downsampling_factor_net) // downsampling_factor_product
+    cols_elt = math.ceil(img_cols / downsampling_factor_net) // downsampling_factor_product
     eltprod = EltWiseProduct(init='zero', W_regularizer=l2(1/(rows_elt*cols_elt)))(pre_final_conv)
     output_ml_net = Activation('relu')(eltprod)
 
