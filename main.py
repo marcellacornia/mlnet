@@ -29,8 +29,6 @@ def generator(b_s, phase_gen='train'):
 
 def generator_test(b_s, imgs_test_path):
     images = [imgs_test_path + f for f in os.listdir(imgs_test_path) if f.endswith('.jpg')]
-    print b_s
-    print len(images)
     images.sort()
 
     counter = 0
