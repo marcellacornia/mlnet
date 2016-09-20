@@ -42,7 +42,7 @@ def generator_test(b_s, imgs_test_path):
 if __name__ == '__main__':
     phase = sys.argv[1]
 
-    model = ml_net_model(img_cols=shape_c, img_rows=shape_r)
+    model = ml_net_model(img_cols=shape_c, img_rows=shape_r, downsampling_factor_product=10)
     sgd = SGD(lr=1e-3, decay=0.0005, momentum=0.9, nesterov=True)
     print("Compile ML-Net Model")
     model.compile(sgd, loss)
