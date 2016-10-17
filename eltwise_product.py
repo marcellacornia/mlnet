@@ -17,7 +17,6 @@ class EltWiseProduct(Layer):
         self.activity_regularizer = regularizers.get(activity_regularizer)
 
         self.W_constraint = constraints.get(W_constraint)
-        self.constraints = [self.W_constraint]
 
         self.initial_weights = weights
 
@@ -45,6 +44,10 @@ class EltWiseProduct(Layer):
         if self.initial_weights is not None:
             self.set_weights(self.initial_weights)
             del self.initial_weights
+
+        self.constraints = {}
+        if self.W_constraint:
+            self.constraints[self.W] = self.W_constraint
 
     def get_output_shape_for(self, input_shape):
         return input_shape
