@@ -46,6 +46,8 @@ Beside, it is necessary to set parameters and paths in the [config.py](config.py
 * OpenCV
 * H5py
 
+**ML-Net supports Theano only. To use our code it is necessary to set Theano as backend and "th" as dim ordering in the keras.json file.**
+
 ## Precomputed Saliency Maps
 
 We provide saliency maps predicted by our network for two standard datasets:
