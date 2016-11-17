@@ -61,6 +61,7 @@ if __name__ == '__main__':
         imgs_test_path = sys.argv[2]
 
         file_names = [f for f in os.listdir(imgs_test_path) if f.endswith('.jpg')]
+        file_names.sort()
         nb_imgs_test = len(file_names)
 
         print("Load weights ML-Net")
