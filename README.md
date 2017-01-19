@@ -9,7 +9,7 @@ Please cite with the following Bibtex code:
 @inproceedings{mlnet2016,
 author = {Cornia, Marcella and Baraldi, Lorenzo and Serra, Giuseppe and Cucchiara, Rita},
 title = {A Deep Multi-Level Network for Saliency Prediction},
-booktitle = {23rd International Conference on Pattern Recognition (ICPR)},
+booktitle = {International Conference on Pattern Recognition (ICPR)},
 year = {2016}
 }
 ```
