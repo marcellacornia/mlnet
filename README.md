@@ -45,7 +45,7 @@ Beside, it is necessary to set parameters and paths in the [config.py](config.py
 * [Keras](https://github.com/fchollet/keras) 1.1.0, configured for using Theano as backend 
 * OpenCV 3.0.0
 
-Note: Be sure to have ```"image_dim_ordering": "th"``` and ```"backend": "theano"``` in your keras.json fil
+Note: Be sure to have ```"image_dim_ordering": "th"``` and ```"backend": "theano"``` in your keras.json file.
 
 ## Precomputed Saliency Maps
 
