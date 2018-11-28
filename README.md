@@ -52,7 +52,11 @@ Note: Be sure to have ```"image_dim_ordering": "th"``` and ```"backend": "theano
 We provide saliency maps predicted by our network for two standard datasets:
 * [SALICON validation set](https://drive.google.com/file/d/0B3ZguV08iwjsYS1jTC16TEFQbU0/view?usp=sharing) 
 * [MIT1003 dataset](https://drive.google.com/file/d/0B3ZguV08iwjsM2RjTk5HYjExTUE/view?usp=sharing) 
-  
+
+## PyTorch Version
+
+A PyTorch re-implementation of our model is available at https://github.com/immortal3/MLNet-Pytorch.
+
 ## Contact
 
 For more datails about our research please visit our [page](http://imagelab.ing.unimore.it/imagelab/researchActivity.asp?idActivity=30).
