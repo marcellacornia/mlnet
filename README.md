@@ -41,6 +41,7 @@ Beside, it is necessary to set parameters and paths in the [config.py](config.py
 * Weights ML-Net SALICON: [mlnet_salicon_weights.pkl](https://drive.google.com/file/d/0B3ZguV08iwjsOGFEWlRfZkVqaWs/view?usp=sharing) 
 
 ## Requirements
+* Python 2.7
 * [Theano](https://github.com/Theano/Theano) 0.9.0
 * [Keras](https://github.com/fchollet/keras) 1.1.0, configured for using Theano as backend 
 * OpenCV 3.0.0
