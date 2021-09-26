@@ -38,7 +38,7 @@ python main.py train
 Beside, it is necessary to set parameters and paths in the [config.py](config.py) file.
 
 * Weights VGG-16: [vgg16_weights.h5](https://drive.google.com/file/d/1hMA3j5YY0zBkM0nhc6__7AxBDpqmNixV/view?usp=sharing) 
-* Weights ML-Net SALICON: [mlnet_salicon_weights.pkl](https://drive.google.com/file/d/0B3ZguV08iwjsOGFEWlRfZkVqaWs/view?usp=sharing) 
+* Weights ML-Net SALICON: [mlnet_salicon_weights.pkl](https://drive.google.com/file/d/0B3ZguV08iwjsOGFEWlRfZkVqaWs/view?resourcekey=0-qNclY0CYQk2R8xaS2HuAaA) 
 
 ## Requirements
 * Python 2.7
@@ -51,8 +51,8 @@ Note: Be sure to have ```"image_dim_ordering": "th"``` and ```"backend": "theano
 ## Precomputed Saliency Maps
 
 We provide saliency maps predicted by our network for two standard datasets:
-* [SALICON validation set](https://drive.google.com/file/d/0B3ZguV08iwjsYS1jTC16TEFQbU0/view?usp=sharing) 
-* [MIT1003 dataset](https://drive.google.com/file/d/0B3ZguV08iwjsM2RjTk5HYjExTUE/view?usp=sharing) 
+* [SALICON validation set](https://drive.google.com/file/d/0B3ZguV08iwjsYS1jTC16TEFQbU0/view?usp=sharing&resourcekey=0-bFzhA09YF5quynYW7YZs3A) 
+* [MIT1003 dataset](https://drive.google.com/file/d/0B3ZguV08iwjsM2RjTk5HYjExTUE/view?usp=sharing&resourcekey=0-OLisxRC5mkkGqcOqyvuqbA) 
 
 ## PyTorch Version
 
