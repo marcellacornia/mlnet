@@ -38,7 +38,7 @@ python main.py train
 Beside, it is necessary to set parameters and paths in the [config.py](config.py) file.
 
 * Weights VGG-16: [vgg16_weights.h5](https://drive.google.com/file/d/1hMA3j5YY0zBkM0nhc6__7AxBDpqmNixV/view?usp=sharing) 
-* Weights ML-Net SALICON: [mlnet_salicon_weights.pkl](https://drive.google.com/file/d/0B3ZguV08iwjsOGFEWlRfZkVqaWs/view?resourcekey=0-qNclY0CYQk2R8xaS2HuAaA) 
+* Weights ML-Net SALICON: [mlnet_salicon_weights.pkl](https://drive.google.com/file/d/0B3ZguV08iwjsOGFEWlRfZkVqaWs/view?usp=sharing&resourcekey=0-qNclY0CYQk2R8xaS2HuAaA) 
 
 ## Requirements
 * Python 2.7
